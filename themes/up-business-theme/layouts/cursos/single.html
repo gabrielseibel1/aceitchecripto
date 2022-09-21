@@ -1,12 +1,12 @@
 {{ define "main" }}
 
-{{ with .Site.Data.guardiao.hero1 }}{{ partial "sections/guardiao-hero1.html" . }}{{ end }}
+{{ with .Site.Data.guardiao.hero1 }}{{ partial "sections/hero.html" . }}{{ end }}
 
 {{ with .Site.Data.guardiao.portfolio }}{{ partial "sections/portfolio.html" . }}{{ end }}
 
 {{ with .Site.Data.guardiao.problems }}{{ partial "sections/services.html" . }}{{ end }}
 
-{{ with .Site.Data.guardiao.hero2 }}{{ partial "sections/guardiao-hero2.html" . }}{{ end }}
+{{ with .Site.Data.guardiao.hero2 }}{{ partial "sections/hero.html" . }}{{ end }}
 
 <section class="section cta py-5">
   <div class="container">
