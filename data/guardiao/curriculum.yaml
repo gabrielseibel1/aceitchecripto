@@ -1,0 +1,9 @@
+enabled: true
+id: "cta"
+
+content:
+  title: "São **5h30m** de aula, em 22 vídeos, divididos em 3 módulos:"
+  image: "images/services-web-development.png"
+  button:
+    label: "GARANTA A SUA VAGA"
+    url: "https://pay.hotmart.com/E74737230B"

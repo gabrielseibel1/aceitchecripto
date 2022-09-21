@@ -1,0 +1,60 @@
+baseURL: "https://aceitchecripto.com/"
+theme: "up-business-theme"
+languageCode: "pt-br"
+
+title: "AceiTchê Cript" # intentionally missing the last O
+
+# googleAnalytics: ""
+
+summaryLength: 20
+
+params:
+  title: "AceiTchê Cript" # intentionally missing the last O
+  description: "Tenha criptomoedas da maneira correta, com segurança e privacidade."
+  images: 
+    - "images/guardiao-logo.png"
+
+  logo: "aceitche-logo.png"
+
+  favicons:
+    themeColor: "#000940"
+    backgroundColor: "#FFFFFF"
+    faviconColor: "#ff0044"
+
+  location:
+    - "Porto Alegre - RS, Brasil"
+
+  contact:
+    - "aceitche.cripto@gmail.com"
+    - "(51) 99638-3319"
+
+  copyright: "® 2022 AceiTchê Cripto Marca Registrada"
+
+menus:
+  main:
+    - name: "Início"
+      url: "/"
+      weight: 1
+
+    - name: "Contato"
+      url: "/contato"
+      weight: 2
+
+  buttons:
+    - name: "Cursos"
+      url: "/cursos"
+      weight: 3
+      pre: "btn btn-primary text-light"
+
+  footer:
+    - name: "Início"
+      url: "/"
+      weight: 1
+
+    - name: "Cursos"
+      url: "/cursos"
+      weight: 2
+
+taxonomies:
+  series: "series"
+  tags: "tags"

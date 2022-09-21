@@ -1,0 +1,21 @@
+enabled: true
+id: "cta"
+
+content:
+  title: "Tenha criptomoedas corretamente!"
+  features:
+    - text: "12 meses de acesso ao curso Guardião Cripto"
+    - text: "5h30m de vídeo-aulas teóricas e práticas"
+    - text: "22 resumos em pdf para consulta e referência"
+    - text: "3 materiais de manejo cripto para imprimir"
+    - text: "1 ano de suporte e auxílio do professor"
+  image: "images/mockup.png"
+  discountpre: "*SOMENTE ATÉ 07 DE NOVEMBRO!*"
+  discountval: "ECONOMIZE R$100!"
+  priceold: "R$197"
+  pricenow: "R$97"
+  button:
+    label: "QUERO SER UM GUARDIÃO"
+    url: "https://pay.hotmart.com/E74737230B"
+  buttonpost1: "Pagamento seguro via Hotmart"
+  buttonpost2: "Acesso imediato por email"

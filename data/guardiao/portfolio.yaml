@@ -1,0 +1,21 @@
+enabled: true
+id: "portfolio"
+
+content:
+  - image: "images/inflação.png"
+    pretitle: "O Fim do Real"
+    title: "Estão te roubando sem parar"
+    text: "Além de roubar com impostos, através da inflação o governo desvaloriza o seu dinheiro sem parar, transformando as conquistas do teu trabalho, as tuas economias, em pó. \" Nota de R$ 100 em 1994, quando nasce o Real, vale R$ 13,91 em 2022. Inflação acumulada desde o lançamento do plano chega a 653%.\" Você precisa se proteger disso!"
+
+    buttons: 
+      - label: "Fonte: folha.uol"
+        url: "https://www1.folha.uol.com.br/mercado/2022/07/inflacao-acumulada-desde-o-plano-real-chega-a-653.shtml"
+
+  - image: "images/btc_brl_log.png"
+    pretitle: "Bitcoin ao resgate"
+    title: "Uma solução parcial existe"
+    text: "A maioria das pessoas ainda não percebeu, mas desde 2009, já existe uma alternativa ao sistema econômico patológico em que vivemos. O Bitcoin desde então valorizou exponencialmente, com adoção cada vez maior - e isso quer dizer que o preço para entrar na economia do futuro está cada vez mais alto."
+
+    buttons: 
+      - label: "Fonte: coinmarketcap"
+        url: "https://coinmarketcap.com/currencies/bitcoin"

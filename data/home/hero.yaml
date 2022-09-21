@@ -1,0 +1,16 @@
+enabled: true
+id: "hero"
+
+content:
+  image: "images/aceitche-logo.png"
+  title: "Tenha **criptomoedas** da maneira correta."
+  text: "Criptomoedas com segurança e privacidade."
+
+  buttonPrimary:
+    label: "Ver Cursos"
+    url: "/cursos/"
+
+  buttonSecondary:
+    label: "Entrar em contato"
+    url: "/contato"
+

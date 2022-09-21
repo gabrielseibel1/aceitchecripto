@@ -1,0 +1,18 @@
+enabled: true
+id: "services"
+
+content:
+  title: "Mas não é tão simples, existem armadilhas no caminho..."
+  text: "As pessoas NÃO guardam suas criptos corretamente, e tem sua segurança e privacidade comprometidas por causa disso, arriscando seus fundos."
+  cards:
+    - image: "images/eye.jpg"
+      title: "Falta de Privacidade"
+      text: "Pessoas, empresas e governos observam teu saldo e movimentações com criptomoedas. Você mostra a todos suas informações sensíveis, vulnerável a ataques."
+
+    - image: "images/hacker.jpg"
+      title: "Falta de Segurança"
+      text: "Ladrões, governos e hackers querem pegar as tuas criptos. Corretoras trabalham junto do governo, têm falhas ocultas de segurança e são grandes alvos de hacks."
+
+    - image: "images/padlock.jpg"
+      title: "Falta de Liberdade"
+      text: "Corretoras e governos podem controlar o que você pode ou não fazer com suas criptos, censurando e congelando fundos dos usuários despreparados."

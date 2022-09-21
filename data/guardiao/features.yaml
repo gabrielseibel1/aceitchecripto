@@ -1,0 +1,29 @@
+enabled: true
+id: "services"
+
+content:
+  title: "Nesse curso você vai..."
+  cards:
+    - image: "images/light.jpg"
+      title: "Entender as criptomoedas"
+      text: "Com aulas teóricas sobre essa tecnologia, ela vai fazer sentido pra você."
+
+    - image: "images/tools.jpg"
+      title: "Aprender a usar ferramentas"
+      text: "Com aulas práticas e demonstrações detalhadas, você vai acertar de primera."
+
+    - image: "images/btc-xmr.png"
+      title: "Focar em Bitcoin e Monero"
+      text: "Sabendo princípios gerais, você vai aprofundar seu estudo em duas ótimas criptomoedas."
+
+    - image: "images/lock.jpg"
+      title: "Multiplicar sua segurança"
+      text: "Usando técnicas não difundidas, tenha aumentos multiplicativos de segurança."
+
+    - image: "images/privacy.jpg"
+      title: "Obter maior privacidade"
+      text: "Pare de se preocupar com impostos e outros roubos e ataques, torne seu dinheiro invisível."
+    
+    - image: "images/freedom.jpg"
+      title: "Conquistar mais liberdade"
+      text: "Você vai aumentar sua blindagem contra regulamentações e censuras."

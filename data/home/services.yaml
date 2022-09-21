@@ -1,0 +1,27 @@
+enabled: true
+id: "services"
+
+content:
+  title: "Como te ajudamos?"
+  text: "Fornecemos serviços relacionados a criptomoedas para pessoas e empresas."
+  cards:
+    - image: "images/course.jpg"
+      title: "Cursos"
+      text: "Nos propomos a produzir os melhores cursos de criptomoedas do mercado, com conteúdo técnico exclusivo. Veja os cursos disponíveis agora e aprenda com método!"
+      button:
+        label: "Ver Cursos"
+        url: "/cursos"
+
+    - image: "images/mentoring.jpg"
+      title: "Mentorias"
+      text: "Mentorias de criptomoedas com conteúdo personalizado, possivelmente incluindo: teoria, manejo seguro e privado, mineração, etc. Ensinamos do iniciante ao avançado."
+      button:
+        label: "Agendar"
+        url: "/contato"
+
+    - image: "images/automation.jpg"
+      title: "Automação"
+      text: " Criação e hospedagem de lojas online com pagamentos em criptomoedas, botões para páginas de pagamentos cripto estilizadas e automatizadas, integração de eventos de venda."
+      button:
+        label: "Saber mais"
+        url: "/contato"
