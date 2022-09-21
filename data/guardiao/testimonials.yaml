@@ -10,7 +10,6 @@ content:
     client: "Rodolfo, cliente da mentoria"
 
   list:
-    # TODO : images?
     - text: "Gostei demais da experiência, foi sensacional, indico demais."
       client: "Heitor, cliente da mentoria"
 
@@ -18,13 +17,13 @@ content:
       client: "Lucas, cliente da mentoria"
 
     - text: "Aprendo muito com o conteúdo que tu disponibiliza no insta."
-      client: "Cliente anônimo no Instagram"
+      client: "Cliente anônimo"
 
     - text: "Já me ajudou muito! Trouxe segurança pra eu fazer minha primeira compra de cripto!"
-      client: "Cliente anônimo no Instagram"
+      client: "Cliente anônimo"
 
     - text: "Estou conseguindo entender esse universo, e naturalizar as criptos fazendo parte da minha rotina."
-      client: "Cliente anônimo no Instagram"
+      client: "Cliente anônimo"
 
     - text: "Achei muito bom mesmo, as informações tem entrado na mente e feito sentido, estou entendendo mais."
-      client: "Cliente anônimo no Instagram"
+      client: "Cliente anônimo"
