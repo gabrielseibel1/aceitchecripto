@@ -1,0 +1,109 @@
+{{ define "main" }}
+
+{{ with .Site.Data.guardiao.hero1 }}{{ partial "sections/guardiao-hero1.html" . }}{{ end }}
+
+{{ with .Site.Data.guardiao.portfolio }}{{ partial "sections/portfolio.html" . }}{{ end }}
+
+{{ with .Site.Data.guardiao.problems }}{{ partial "sections/services.html" . }}{{ end }}
+
+{{ with .Site.Data.guardiao.hero2 }}{{ partial "sections/guardiao-hero2.html" . }}{{ end }}
+
+<section class="section cta py-5">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 col-xl-6">
+        <h3 class="fs-1 fw-bold text-center text-primary pb-3">Para quem é o curso?</h3>
+        <p class="text-center text-black-61">É para quem...</p>
+        <div class="text-black-61">
+          <ul>
+            <li>quer preservar seu dinheiro de inflação e impostos, ou;</li>
+            <li>ainda não tem criptomoedas, ou;</li>
+            <li>guarda criptomoedas na corretora, ou;</li>
+            <li>quer parar de correr riscos, ou;</li>
+            <li>quer garantir um futuro confortável e estável.</li>
+          </ul>
+          <h4 class="text-center">Se encaixa em alguma dessas situações?<br>Então <b>você vai se beneficiar muito</b>
+            usando o método Guardião Cripto</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+{{ with .Site.Data.guardiao.features }}{{ partial "sections/services.html" . }}{{ end }}
+
+<section class="section cta py-5">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 col-xl-6">
+        <h4 class="text-center">Este <b>NÃO É</b> mais um curso com falsas promessas de enriquecer por especulação ou
+          investir em algo milagroso, como tantos outros.<br><br>Em vez disso ...</h4>
+        <h2 class="text-center">O curso te dá uma método <b>técnico</b> para te <b>blindar de perder dinheiro a longo
+            prazo</b>.
+        </h2>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ with .Site.Data.guardiao.curriculum }}{{ partial "sections/curriculum.html" . }}{{ end }}
+
+{{ with .Site.Data.guardiao.teacher }}{{ partial "sections/portfolio.html" . }}{{ end }}
+
+<section class="section cta py-5">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 col-xl-6">
+        <h3 class="fs-1 fw-bold text-center text-primary pb-3 text-danger">Mas agora você pode estar pensando...</h3>
+        <div class="text-black-61" style="margin-top: 50px;">
+          <h4 class="fw-bold">- "Mas eu não sou bom com tecnologia."</h4>
+          <p>No curso eu pego a sua mão e ensino tudo <b>passo-a-passo</b>, além de explicar todos os conceitos de
+            maneira que mesmo iniciantes entendem</p>
+          <h4 class="fw-bold">- "Mas eu não tenho dinheiro para investir em criptomoedas."</h4>
+          <p>Um Bitcoin pode custar R$100.000, mas tu pode comprar uma fração dele, um pedacinho, equivalente ao valor
+            de um
+            lanche!</p>
+          <h4 class="fw-bold">- "Mas eu não tenho tanto dinheiro investido para me preocupar com segurança."</h4>
+          <p>Mesmo quando nosso dinhero é escasso temos que valoriza-lo e protege-lo muito, pois cada centavo perdido é
+            um
+            prejuizo imenso</p>
+          <h4 class="fw-bold">- "Mas eu não faço nada ilegal, não preciso me preocupar com privacidade."</h4>
+          <p>Privacidade é uma proteção fundamental. Se todos souberem quanto tu tem e tudo que tu faz, vão poder te
+            roubar, extorquir, manipular e censurar bem facilmente.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+{{ with .Site.Data.guardiao.testimonials }}{{ partial "sections/testimonials.html" . }}{{ end }}
+
+{{ with .Site.Data.guardiao.offer }}{{ partial "sections/offer.html" . }}{{ end }}
+
+<section class="section cta py-5">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 col-xl-6">
+        <h3 class="fs-1 fw-bold text-center text-primary pb-3">Dúvidas Frequentes</h3>
+        <div class="text-black-61 pb-5" style="margin-top: 20px;">
+          <h4 class="fw-bold">- "Por quanto tempo vou ter acesso ao curso?"</h4>
+          <p>Você tem um ano inteiro para acessar o Guardião Cripto, podendo assistir a cada uma das aulas quantas vezes
+            quiser.</p>
+
+          <h4 class="fw-bold">- "Como vou acessar o curso?"</h4>
+          <p>O curso acontece na plataforma da Hotmart, acessível por qualquer dispositivo (computador, celular, tablet etc.). Você receberá um link de acesso imediatamente após efetuar a
+            compra.
+          </p>
+
+          <h4 class="fw-bold">- "E se eu não gostar, posso cancelar a compra?</h4>
+          <p>Não se preocupe, você pode utilizar o recurso de reembolso da Hotmart em até 7 dias. Você pode testar o curso
+            nesse período e, se sentir que não foi feito para você, é só acionar a garantia fácil da plataforma.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ end }}
