@@ -2,7 +2,7 @@ baseURL: "https://aceitchecripto.com"
 theme: "up-business-theme"
 languageCode: "pt-br"
 
-title: "AceiTchê Cripto" # intentionally missing the last O
+title: "AceiTchê Cripto"
 
 googleAnalytics: "AW-10967398952"
 
