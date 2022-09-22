@@ -11,7 +11,9 @@
   {{ partial "head/_favicons.html" . }}
 
   <!-- SEO: Google Analytics -->
-  {{ partial "head/_seo.html" . }}
+  {{ if hugo.IsProduction }}
+    {{ partial "head/_seo.html" . }}
+  {{ end }}
 
   <!-- Stylesheets and Javascript -->
   {{ partial "head/_resources.html" . }}
