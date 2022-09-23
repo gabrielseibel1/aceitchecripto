@@ -1,52 +1,58 @@
-<section class="section cta py-5">
+<section class="section cta py-5 bg-purple mb-5">
   <div class="container text-black-61">
-    <div class="row justify-content-center">
+    <div class="row justify-content-center pb-5">
       <div class="col-12 col-xl-6">
         {{ with .content.title }}
-          <h3 class="text-danger fs-1 fw-bold text-center text-primary pb-3">{{ . | markdownify }}</h3>
+        <h3 class="fs-1 fw-bold text-center text-primary text-light">{{ . | markdownify }}</h3>
         {{ end }}
       </div>
     </div>
     <div class="row justify-content-center">
       <div class="col-12 col-xl-6">
-      <p class="text-center"><b>Método 1 - Guardião Noviço (Básico)</b></p>
-      <ul>
-          <li>Introdução ao Curso</li>
-          <li>Aula 0 - Conceitos</li>
-          <li>Introdução ao Método 1 - Guardião Noviço</li>
-          <li>Aula 1 - Posse de Criptomoedas com o Celular</li>
-          <li>Aula 2 - Negociações de Criptomoedas</li>
-          <li>Checkpoint</li>
-      </ul>
-      <p class="text-center"><b>Método 2 - Guardião Iniciado (Intermediário)</b></p>
-      <ul>
-          <li>Introdução ao Método 2 - Guardião Iniciado</li>
-          <li>Aula 3 - Sistema Operacional</li>
-          <li>Aula 4 - Anonimato Online</li>
-          <li>Aula 5 - Sistemas de Anonimato</li>
-          <li>Aula 6 - Carteiras e Nós</li>
-          <li>Aula 7 - Carteiras com Nó Embutido</li>
-          <li>Aula 8 - Carteiras com Nós Remotos</li>
-          <li>Aula 9 - Corretoras Descentralizadas</li>
-      </ul>
-      <p class="text-center"><b>Método 3 - Guardião Veterano (Avançado)</b></p>
-      <ul>
-          <li>Introdução ao Método 3 - Guardião Veterano</li>
-          <li>Aula 10 - Rastreabilidade</li>
-          <li>Aula 11 - Carteiras de Hardware 1</li>
-          <li>Aula 12 - Carteiras de Hardware 2</li>
-          <li>Aula 13 - Múltiplas Assinaturas</li>
-          <li>Aula 14 - Melhorando Cópias de Restauração</li>
-          <li>Aula 15 - Resumo do Guardião Veterano</li>
-          <li>Aula 16 - Herança</li>
-      </ul>
-      <h3 class="fs-1 fw-bold text-center text-primary pb-4 pt-4">Todas as aulas contam com resumo em pdf para consultas e referências</h3>
+        <div class="card d-flex border-0 shadow p-5 shadow mb-4">
+          <p class="text-center"><b>Método 1 - Guardião Noviço (Básico)</b></p>
+          <ul>
+            <li>Introdução ao Curso</li>
+            <li>Aula 0 - Conceitos</li>
+            <li>Introdução ao Método 1 - Guardião Noviço</li>
+            <li>Aula 1 - Posse de Criptomoedas com o Celular</li>
+            <li>Aula 2 - Negociações de Criptomoedas</li>
+            <li>Checkpoint</li>
+          </ul>
+        </div>
+        <div class="card d-flex border-0 shadow p-5 shadow mb-4">
+          <p class="text-center"><b>Método 2 - Guardião Iniciado (Intermediário)</b></p>
+          <ul>
+            <li>Introdução ao Método 2 - Guardião Iniciado</li>
+            <li>Aula 3 - Sistema Operacional</li>
+            <li>Aula 4 - Anonimato Online</li>
+            <li>Aula 5 - Sistemas de Anonimato</li>
+            <li>Aula 6 - Carteiras e Nós</li>
+            <li>Aula 7 - Carteiras com Nó Embutido</li>
+            <li>Aula 8 - Carteiras com Nós Remotos</li>
+            <li>Aula 9 - Corretoras Descentralizadas</li>
+          </ul>
+        </div>
+        <div class="card d-flex border-0 shadow p-5 shadow mb-4">
+          <p class="text-center"><b>Método 3 - Guardião Veterano (Avançado)</b></p>
+          <ul>
+            <li>Introdução ao Método 3 - Guardião Veterano</li>
+            <li>Aula 10 - Rastreabilidade</li>
+            <li>Aula 11 - Carteiras de Hardware 1</li>
+            <li>Aula 12 - Carteiras de Hardware 2</li>
+            <li>Aula 13 - Múltiplas Assinaturas</li>
+            <li>Aula 14 - Melhorando Cópias de Restauração</li>
+            <li>Aula 15 - Resumo do Guardião Veterano</li>
+            <li>Aula 16 - Herança</li>
+          </ul>
+        </div>
+        <h3 class="fs-1 fw-bold text-center text-primary text-light pb-4 pt-4">Todas as aulas contam com resumo em PDF para consultas e referências</h3>
       </div>
     </div>
     <div class="row justify-content-center">
       <div class="col-12 col-xl-6 text-center">
         {{ with .content.button }}
-          <a class="btn btn-primary text-light px-4 my-1" href="{{ .url }}"><b>{{ .label }}</b></a>
+        <a class="btn bg-green-grad text-light fs-3 px-4 my-1" href="{{ .url }}"><b>{{ .label }}</b></a>
         {{ end }}
       </div>
     </div>

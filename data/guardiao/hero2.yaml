@@ -1,11 +1,13 @@
 enabled: true
 id: "hero"
 
+style:
+  purple: true
+
 content:
   image: "images/guardiao-logo.png"
   title: "Proteja-se como um **Guardião Cripto**"
   text: "O curso Guardião Cripto vai te ensinar do básico ao avançado a manejar criptomoedas com a mais segurança e privacidade."
-
   buttonPrimary:
     label: "GARANTA A SUA VAGA"
     url: "https://pay.hotmart.com/E74737230B"
