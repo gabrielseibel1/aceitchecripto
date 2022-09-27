@@ -7,7 +7,7 @@ content:
   cards:
     - image: "images/eye.jpg"
       title: "Falta de Privacidade"
-      text: "Pessoas, empresas e governos observam teu saldo e movimentações com criptomoedas. Você mostra a todos suas informações sensíveis, vulnerável a ataques."
+      text: "Pessoas, empresas e governos observam teu saldo e movimentações com criptomoedas. Você mostra a todos suas informações sensíveis e torna-se vulnerável a ataques."
 
     - image: "images/hacker.jpg"
       title: "Falta de Segurança"
