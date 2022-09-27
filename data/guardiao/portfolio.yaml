@@ -5,7 +5,7 @@ content:
   - image: "images/inflação.png"
     pretitle: "O Fim do Real"
     title: "Estão te roubando sem parar"
-    text: "Além de roubar com impostos, o governo desvaloriza o seu dinheiro sem parar através da inflação, transformando em pó as conquistas do teu trabalho e as tuas economias. "A nota de R$ 100 em 1994, quando nascia o Real, vale apenas R$ 13,91 em 2022. A inflação acumulada desde o lançamento do plano chega a 653%." Você precisa se proteger disso!"
+    text: "Além de roubar com impostos, o governo desvaloriza o seu dinheiro sem parar através da inflação, transformando em pó as conquistas do teu trabalho e as tuas economias. \"A nota de R$ 100 em 1994, quando nascia o Real, vale apenas R$ 13,91 em 2022. A inflação acumulada desde o lançamento do plano chega a 653%.\" Você precisa se proteger disso!"
 
     buttons: 
       - label: "Fonte: folha.uol"
