@@ -8,14 +8,14 @@
       </div>
     </div>
     <div class="row justify-content-center">
-      <div class="col-12 col-xl-6 text-center">
+      <div class="col-12 col-xl-6 text-center pb-5">
         {{ with .content.image }}{{ partial "utilities/image-fluid.html" . }}{{ end }}
       </div>
     </div>
     <div class="row justify-content-center">
       <div class="col-12 col-xl-6 text-center">
         {{ with .content.button }}
-          <a class="btn btn-outline-primary px-4 fw-bold" href="{{ .url }}">{{ .label }}<span class="ms-2">{{ partial "icons/arrow-right.html" }}</span></a>
+          <a class="btn btn-primary px-4 fw-bold" href="{{ .url }}">{{ .label }}<span class="ms-2">{{ partial "icons/arrow-right.html" }}</span></a>
         {{ end }}
       </div>
     </div>

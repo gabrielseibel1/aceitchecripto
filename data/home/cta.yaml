@@ -3,7 +3,7 @@ id: "cta"
 
 content:
   title: "Use criptomoedas e gerencie corretamente o seu dinheiro!"
-  image: "images/aceitche-logo.png"
+  image: "images/aceitche-logo-horiz.png"
   button:
     label: "Entrar em Contato"
     url: "/contato"

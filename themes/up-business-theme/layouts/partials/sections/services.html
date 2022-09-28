@@ -15,10 +15,10 @@
         <div class="col-12 col-xl-4">
           <div class="card bg-blue-16 border-0 border-radius-34 p-4">
             {{ with .image }}{{ partial "utilities/image-fluid.html" . }}{{ end }}
-            <div class="card-body text-center">
-              {{ with .title }}<h2 class="card-title text-center text-primary pb-4"><b>{{ . }}</b></h2>{{ end }}
-              {{ with .text }}<p class="card-text text-black-61 pb-4">{{ . }}</p>{{ end }}
-              {{ with .button }}<a class="btn btn-outline-primary px-4 fw-bold" href="{{ .url }}">{{ .label }}</a>{{ end }}
+            <div class="text-center">
+              {{ with .title }}<h2 class="card-title text-center text-primary py-4"><b>{{ . }}</b></h2>{{ end }}
+              {{ with .text }}<p class="card-text text-black-61">{{ . }}</p>{{ end }}
+              {{ with .button }}<a class="btn btn-primary fw-bold mt-4" href="{{ .url }}">{{ .label }}</a>{{ end }}
             </div>
           </div>
         </div>
