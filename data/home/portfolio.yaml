@@ -2,7 +2,7 @@ enabled: true
 id: "portfolio"
 
 content:
-  - image: "images/seibel4.png" # see theme assets
+  - image: "images/gabriel-seibel-grad.png" # see theme assets
     pretitle: "Time"
     title: "Quem somos?"
     text: "A AceiTchê Cripto é totalmente operada pelo engenheiro de computação Gabriel Seibel, apaixonado por tecnologia, ética e economia."
