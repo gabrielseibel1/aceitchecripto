@@ -5,22 +5,24 @@ content:
   title: "Nossos clientes recomendam"
 
   featured:
-    #image: "images/success.jpg"
+    image: "images/rodolfo.png"
     text: "Queria agradecer bastante pela mentoria, ela foi muito rica, tive diversos aprendizados, muito mesmo. Sua mentoria foi muito precisa, ela me fez entender pontos em que eu não tinha parado para pensar ainda. Achei muito didático, super recomendo. Tá fazendo um trabalho incrível, parabéns."
-    client: "Rodolfo, cliente da mentoria"
+    client: "Rodolfo Viola"
 
   list:
+    - image: "images/lucas.png"
+      text: "Foi muito didático, extremamente elucidativo. Parabéns pelo teu trabalho, tu está bem sólido no conhecimento de base que tu tem para passar, de forma bem didática."
+      client: "Lucas De Conti"
+    
+    - image: "images/heitor.png"
+      text: "Gostei demais da experiência, foi sensacional, indico demais."
+      client: "Heitor Lima"
+
     - text: "Aprendo muito com o conteúdo que tu disponibiliza no insta."
       client: "Cliente anônimo"
 
-    - text: "Gostei demais da experiência, foi sensacional, indico demais."
-      client: "Heitor, cliente da mentoria"
-
     - text: "Já me ajudou muito! Trouxe segurança pra eu fazer minha primeira compra de cripto!"
       client: "Cliente anônimo"
-
-    - text: "Foi muito didático, extremamente elucidativo. Parabéns pelo teu trabalho, tu está bem sólido no conhecimento de base que tu tem para passar, de forma bem didática."
-      client: "Lucas, cliente da mentoria"
 
     - text: "Estou conseguindo entender esse universo, e naturalizar as criptos fazendo parte da minha rotina."
       client: "Cliente anônimo"
