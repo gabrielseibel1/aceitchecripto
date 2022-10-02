@@ -1,0 +1,14 @@
+enabled: true
+id: "faq"
+
+content:
+  title: "Perguntas Frequentes"
+  list:
+    - question: "Por quanto tempo vou ter acesso ao curso?"
+      answer: "Você tem um ano inteiro para acessar o Guardião Cripto, podendo assistir a cada uma das aulas quantas vezes quiser."
+
+    - question: "Como vou acessar o curso?"
+      answer: "O curso acontece na plataforma da Hotmart, acessível por qualquer dispositivo (computador, celular, tablet etc.). Você receberá um link de acesso imediatamente após efetuar a compra."
+      
+    - question: "E se eu não gostar, posso cancelar a compra?"
+      answer: "Não se preocupe, você pode utilizar o recurso de reembolso da Hotmart em até 7 dias. Você pode testar o curso nesse período e, se sentir que não foi feito para você, é só acionar a garantia fácil da plataforma."

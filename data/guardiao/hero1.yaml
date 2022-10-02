@@ -1,5 +1,5 @@
 enabled: true
-id: "hero"
+id: "hero1"
 
 content:
   image: "images/vault.jpg"

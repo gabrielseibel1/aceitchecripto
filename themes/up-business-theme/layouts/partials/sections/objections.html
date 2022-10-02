@@ -1,0 +1,18 @@
+<section class="section cta py-5 bg-purple">
+    <div class="container text-black-61 text-light">
+        <div class="row justify-content-center">
+            <div class="col-12 col-xl-12">
+                {{ with .content }}
+                <h3 class="fs-1 fw-bold text-center text-primary pb-3 text-light">{{ .title }}</h3>
+                <div class="" style="margin-top: 50px;">
+                    {{ range .list }}
+                    <h4 class="fw-bold">❌ - "{{ .objection | markdownify }}"</h4>
+                    <p>✅ {{ .solution | markdownify }}</p>
+                    <br>
+                    {{ end }}
+                </div>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</section>

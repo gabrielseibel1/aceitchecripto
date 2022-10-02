@@ -1,0 +1,18 @@
+enabled: true
+id: "objections"
+
+content:
+  title: "Mas agora você pode estar pensando..."
+
+  list:
+    - objection: "Mas eu não sou bom com tecnologia."
+      solution: "No curso eu pego a sua mão e ensino tudo **passo-a-passo**, além de explicar todos os conceitos de maneira que até mesmo iniciantes entendem."
+
+    - objection: "Mas eu não tenho dinheiro para investir em criptomoedas."
+      solution: "Um Bitcoin pode custar R$100.000, mas tu pode comprar uma fração dele, um pedacinho, equivalente ao **valor de um lanche**!"
+  
+    - objection: "Mas eu não tenho tanto dinheiro investido para me preocupar com segurança."
+      solution: "Mesmo quando nosso dinheiro é escasso, temos que valorizá-lo e protegê-lo muito, pois **cada centavo perdido é um prejuízo** imenso."
+  
+    - objection: "Mas eu não faço nada ilegal, não preciso me preocupar com privacidade."
+      solution: "Privacidade é uma **proteção fundamental**. Se todos souberem quanto tu tem e tudo que tu faz, vão poder te roubar, extorquir, manipular e censurar bem facilmente."

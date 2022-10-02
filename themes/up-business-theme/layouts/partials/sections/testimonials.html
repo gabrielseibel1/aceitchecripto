@@ -3,7 +3,7 @@
     <div class="row pb-5">
       <div class="col-12">
         {{ with .content.title }}
-          <h3 class="fs-1 fw-bold text-center text-primary pb-3">{{ . }}</h3>
+        <h3 class="fs-1 fw-bold text-center text-primary pb-3">{{ . }}</h3>
         {{ end }}
       </div>
     </div>
@@ -12,12 +12,15 @@
       <div class="col-12 col-xl-7 d-flex flex-column justify-content-center">
         <div class="pb-4">{{ partial "utilities/image-third.html" "images/testimonials-left-quote.png" }}</div>
         <div class="card d-flex flex-row align-items-start border-0 shadow p-5">
-          <div class="pe-4">
+          <div>
             {{ with .image }}
-              {{ partial "utilities/image-third.html" . }}
+            {{ with resources.Get . }}
+            <img class="me-4 mb-2 size-120" src="{{ .Permalink }}" alt="{{ .Title }}" style="float:left;">
             {{ end }}
+            {{ end }}
+            <p class="card-text text-black-61">"{{ .text }}"</p>
+            <span class="card-text text-black-61 fw-bold text-primary">- {{ .client }}</span>
           </div>
-          <p class="card-text text-black-61">"{{ .text }}"<br><span class="fw-bold text-primary">- {{ .client }}</span></p>
         </div>
         <div class="p-4 text-end">{{ partial "utilities/image-third.html" "images/testimonials-right-quote.png" }}</div>
       </div>
@@ -25,20 +28,24 @@
     </div>
     <div class="row">
       {{ range $i, $e := .content.list }}
-        <div class="col-12 col-xl-6">
-          <div class="card d-flex flex-row align-items-start border-0 shadow p-5 my-2">
-            
-            <div class="pe-4">
-              {{ if $e.image }}
-                {{ with $e.image }}{{ partial "utilities/image-third.html" . }}{{ end }}
-              {{ else }}
-                {{ $colors := (slice "bg-green" "bg-yellow" "bg-red" "bg-purple") }}
-                <div class="{{ index $colors (mod $i 4) }} rounded-circle size-90 mb-4"></div>
-              {{ end }}
-            </div>
-            <p class="card-text text-black-61">"{{ $e.text }}"<br><span class="fw-bold text-primary">- {{ $e.client }}</span></p>
+      <div class="col-12 col-xl-6">
+        <div class="card d-flex flex-row align-items-start border-0 shadow p-5 my-2">
+          <div>
+            {{ if $e.image }}
+            {{ with $e.image }}
+            {{ with resources.Get . }}
+            <img class="me-4 mb-2 size-90" src="{{ .Permalink }}" alt="{{ .Title }}" style="float:left;">
+            {{ end }}
+            {{ end }}
+            {{ else }}
+            {{ $colors := (slice "bg-green" "bg-yellow" "bg-red" "bg-purple") }}
+            <div class="me-4 mb-2 {{ index $colors (mod $i 4) }} rounded-circle size-90" style="float:left;"></div>
+            {{ end }}
+            <p class="card-text text-black-61">"{{ $e.text }}"</p>
+            <span class="card-text text-black-61 fw-bold text-primary">- {{ $e.client }}</span>
           </div>
         </div>
+      </div>
       {{ end }}
     </div>
   </div>

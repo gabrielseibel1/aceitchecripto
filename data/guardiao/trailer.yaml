@@ -1,0 +1,7 @@
+enabled: true
+id: "trailer"
+
+content:
+  title: "Assista gratuitamente a uma prévia do curso!"
+  link: "https://www.youtube.com/embed/yWVHrMGU478?vq=hd1080"
+  description: "Apresentação do Curso no YouTube"

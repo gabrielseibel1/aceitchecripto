@@ -1,8 +1,8 @@
 enabled: true
-id: "portfolio"
+id: "teacher"
 
 content:
-  - image: "images/gabriel-seibel-grad.png"
+  - image: "images/gabriel-seibel-grad-horiz.png"
     pretitle: "Quem vai te ensinar tudo isso?"
     title: "Seu professor é um engenheiro de computação."
     text: "Gabriel Seibel é formado em engenharia de computação pela UFRGS e trabalhou como programador por 2 anos na SAP, uma das maiores empresas de software do mundo. Nesse curso ele vai te ensinar a melhor abordagem de manejo de criptomoedas do mercado."

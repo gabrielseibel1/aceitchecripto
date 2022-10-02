@@ -1,0 +1,13 @@
+enabled: true
+id: "who"
+
+content:
+  title: "Para quem é o curso?"
+  subtitle: "É para quem..."
+  list:
+    - text: "quer preservar seu dinheiro de inflação e impostos;"
+    - text: "ainda não tem criptomoedas;"
+    - text: "guarda criptomoedas na corretora;"
+    - text: "quer parar de correr riscos; ou"
+    - text: "quer garantir um futuro confortável e estável."
+  last: "Se você se encaixa em alguma dessas situações vai se beneficiar muito do método Guardião Cripto"

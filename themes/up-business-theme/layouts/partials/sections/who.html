@@ -1,0 +1,20 @@
+<section class="section cta py-5">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-xl-6">
+                {{ with .content }}
+                <h3 class="fs-1 fw-bold text-center text-primary pb-3">{{ .title }}</h3>
+                <p class="text-center text-black-61">{{ .subtitle }}</p>
+                <div class="text-black-61">
+                    <ul>
+                        {{ range .list }}
+                        <li>{{ .text }}</li>
+                        {{ end }}
+                    </ul>
+                    <h4 class="text-center">{{ .last }}</h4>
+                </div>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</section>

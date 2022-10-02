@@ -1,11 +1,11 @@
 enabled: true
-id: "hero"
+id: "hero2"
 
 style:
   purple: true
 
 content:
-  image: "images/guardiao-logo.png"
+  image: "images/guardiao-logo-horiz-transp.png"
   title: "Proteja-se como um **Guardião Cripto**"
   text: "O curso Guardião Cripto vai te ensinar do básico ao avançado a manejar criptomoedas com mais segurança e privacidade."
   buttonPrimary:

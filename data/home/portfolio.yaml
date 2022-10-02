@@ -2,17 +2,17 @@ enabled: true
 id: "portfolio"
 
 content:
-  - image: "images/gabriel-seibel-grad.png" # see theme assets
+  - image: "images/gabriel-seibel-grad-horiz.png" # see theme assets
     pretitle: "Time"
     title: "Quem somos?"
     text: "A AceiTchê Cripto é totalmente operada pelo engenheiro de computação Gabriel Seibel, apaixonado por tecnologia, ética e economia."
 
-  - image: "images/rocket.png" # see theme assets
+  - image: "images/rocket-horiz.png" # see theme assets
     pretitle: "Objetivos"
     title: "Qual a nossa missão?"
     text: "Queremos impulsionar nossos clientes para entrarem no mundo das criptomoedas da forma correta, tratando as mesmas como uma nova e melhor ferramenta para transacionar, mas que requer cuidados e responsabilidades."
 
-  - image: "images/handshake.png" # see theme assets
+  - image: "images/handshake-horiz.png" # see theme assets
     pretitle: "Motivação"
     title: "Por que fazemos o que fazemos?"
     text: "Entramos no mercado de educação, automação e assistência na operacionalização de criptomoedas, suprindo uma necessidade de conhecimento, segurança, privacidade e praticidade para pessoas e empresas que queiram aceitar o novo dinheiro."

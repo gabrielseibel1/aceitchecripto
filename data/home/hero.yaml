@@ -2,7 +2,7 @@ enabled: true
 id: "hero"
 
 content:
-  image: "images/aceitche-logo.png"
+  image: "images/aceitche-logo-horiz.png"
   title: "Tenha **criptomoedas** da maneira correta."
   text: "Criptomoedas com segurança e privacidade."
 

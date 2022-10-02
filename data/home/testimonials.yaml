@@ -6,7 +6,7 @@ content:
 
   featured:
     image: "images/rodolfo.png"
-    text: "Queria agradecer bastante pela mentoria, ela foi muito rica, tive diversos aprendizados, muito mesmo. Sua mentoria foi muito precisa, ela me fez entender pontos em que eu não tinha parado para pensar ainda. Achei muito didático, super recomendo. Tá fazendo um trabalho incrível, parabéns."
+    text: "Queria agradecer bastante pela mentoria, ela foi muito rica e precisa, tive diversos aprendizados. Me fez entender pontos em que eu não tinha parado para pensar ainda. Achei muito didático, super recomendo. Tá fazendo um trabalho incrível, parabéns."
     client: "Rodolfo Viola"
 
   list:
@@ -18,7 +18,7 @@ content:
       text: "Gostei demais da experiência, foi sensacional, indico demais."
       client: "Heitor Lima"
 
-    - text: "Aprendo muito com o conteúdo que tu disponibiliza no insta."
+    - text: "Aprendo muito com o conteúdo que tu disponibiliza."
       client: "Cliente anônimo"
 
     - text: "Já me ajudou muito! Trouxe segurança pra eu fazer minha primeira compra de cripto!"
