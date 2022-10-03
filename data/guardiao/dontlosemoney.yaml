@@ -1,0 +1,5 @@
+enabled: true
+id: "dontlosemoney"
+
+content:
+  title: "Seu dinheiro está em **perigo**!"

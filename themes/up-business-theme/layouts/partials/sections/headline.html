@@ -1,0 +1,10 @@
+<section class="section hero py-5">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-xl-6">
+                {{ with .content.title }}
+                <h3 class="hero-title fs-1 fw-bold text-center text-primary pb-3">{{ . | markdownify }}</h3>
+                {{ end }}
+            </div>
+        </div>
+</section>
