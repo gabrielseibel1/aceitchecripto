@@ -1,0 +1,8 @@
+enabled: true
+id: "warranty"
+
+content:
+  - image: "images/7_gradient.png"
+    pretitle: "Mas e se não for pra mim?"
+    title: "Garantia de Satisfação"
+    text: "Em vez de se perguntar se a compra vale a pena, teste o curso por uma semana! Acesse todas as aulas sem se preocupar com o preço, pois você pode utilizar o recurso de reembolso da Hotmart a qualquer momento em até 7 dias, se decidir que não quer mesmo ser um Guardião Cripto. **É só acionar a garantia fácil da plataforma, sem burocracias nem explicações!**"
