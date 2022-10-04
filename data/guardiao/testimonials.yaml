@@ -5,21 +5,22 @@ content:
   title: "Nossos clientes recomendam"
 
   featured:
-    image: "images/rodolfo.png"
-    text: "Queria agradecer bastante pela mentoria, ela foi muito rica, tive diversos aprendizados, muito mesmo. Sua mentoria foi muito precisa, ela me fez entender pontos em que eu não tinha parado para pensar ainda. Achei muito didático, super recomendo. Tá fazendo um trabalho incrível, parabéns."
-    client: "Rodolfo Viola"
+    image: "images/lucas.png"
+    text: "Foi muito didático, extremamente elucidativo. Parabéns pelo teu trabalho, tu está bem sólido no conhecimento de base que tu tem para passar, de forma bem didática."
+    client: "Lucas De Conti"
 
   list:
-    - image: "images/lucas.png"
-      text: "Foi muito didático, extremamente elucidativo. Parabéns pelo teu trabalho, tu está bem sólido no conhecimento de base que tu tem para passar, de forma bem didática."
-      client: "Lucas De Conti"
+    - image: "images/humberto.png"
+      text: "Curso muito bom e didático. Recomendo."
+      client: "Humberto Rodrigues"
+
+    - image: "images/rodolfo.png"
+      text: "Tive diversos aprendizados, muito mesmo. Me fez entender pontos em que eu não tinha parado para pensar ainda. Achei muito didático, super recomendo. Tá fazendo um trabalho incrível, parabéns."
+      client: "Rodolfo Viola"
     
     - image: "images/heitor.png"
       text: "Gostei demais da experiência, foi sensacional, indico demais."
       client: "Heitor Lima"
-
-    - text: "Aprendo muito com o conteúdo que tu disponibiliza."
-      client: "Cliente anônimo"
 
     - text: "Já me ajudou muito! Trouxe segurança pra eu fazer minha primeira compra de cripto!"
       client: "Cliente anônimo"
