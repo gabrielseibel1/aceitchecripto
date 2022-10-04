@@ -13,7 +13,8 @@ content:
   condition1: "*SOMENTE ATÉ 07/11!*"
   condition2: "MATRÍCULAS ABERTAS!"
   #priceold: "R$197"
-  pricenow: "R$227"
+  pricedirect: "R$227"
+  price12x: "R$22,66"
   button:
     label: "QUERO SER UM GUARDIÃO"
     url: "https://pay.hotmart.com/E74737230B"

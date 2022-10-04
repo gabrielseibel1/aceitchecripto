@@ -34,10 +34,10 @@
           {{ if .content.priceold }}
           {{ with .content.priceold }}<h2 class="text-light">de <s>{{ . }}</s> por apenas</h2>{{ end }}
           {{ else }}
-          <h2 class="text-light">por apenas</h2>
+            <h2 class="text-light">por apenas</h2>
           {{ end }}
-          {{ with .content.pricenow }}<h1 class="hero-title fw-bold display-1 text-primary text-center text-light">{{ .
-            }}</h1>{{ end }}
+          {{ with .content.pricedirect }}<h1 class="fw-bold display-1 text-primary text-center text-light">{{ . }}</h1>{{ end }}
+          {{ with .content.price12x }}<h2 class="text-center text-light">ou em até <b>12x de {{ . }}</b> no cartão</h2>{{ end }}
         </div>
         <div class="row justify-content-center">
           <div class="col-12 col-xl-12 text-center">
