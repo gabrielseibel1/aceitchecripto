@@ -2,7 +2,7 @@ enabled: true
 id: "problems"
 
 content:
-  title: "Mas não é tão simples, existem armadilhas no caminho..."
+  title: "Mas não é tão simples, existem **armadilhas** no caminho..."
   text: "As pessoas NÃO guardam suas criptos corretamente, e tem sua segurança e privacidade comprometidas por causa disso, arriscando seus fundos."
   cards:
     - image: "images/eye.jpg"
