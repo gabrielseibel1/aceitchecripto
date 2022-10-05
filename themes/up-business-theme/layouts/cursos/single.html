@@ -4,9 +4,11 @@
 
 {{ with .Site.Data.guardiao.dontlosemoney }}{{ partial "sections/headline.html" . }}{{ end }}
 
-{{ with .Site.Data.guardiao.portfolio }}{{ partial "sections/portfolio.html" . }}{{ end }}
+{{ with .Site.Data.guardiao.fiatvsbtc }}{{ partial "sections/portfolio.html" . }}{{ end }}
 
 {{ with .Site.Data.guardiao.problems }}{{ partial "sections/services.html" . }}{{ end }}
+
+{{ with .Site.Data.guardiao.solution }}{{ partial "sections/headline.html" . }}{{ end }}
 
 {{ with .Site.Data.guardiao.hero2 }}{{ partial "sections/hero-dark.html" . }}{{ end }}
 

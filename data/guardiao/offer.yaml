@@ -11,7 +11,7 @@ content:
     - text: "**1 ano de suporte** e auxílio do professor"
   image: "images/mockups.png"
   condition1: "*SOMENTE ATÉ 07/11!*"
-  condition2: "MATRÍCULAS ABERTAS!"
+  condition2: "MATRÍCULAS ABERTAS"
   #priceold: "R$197"
   pricedirect: "R$227"
   price12x: "R$22,66"

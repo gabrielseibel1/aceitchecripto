@@ -14,7 +14,7 @@ content:
 
     - image: "images/mentoring.jpg"
       title: "Mentorias"
-      text: "Mentorias de criptomoedas com conteúdo personalizado, possivelmente incluindo: teoria, manejo seguro e privado, mineração, etc. Ensinamos do iniciante ao avançado."
+      text: "Mentorias de criptomoedas com conteúdo personalizado, opcionalmente incluindo: teoria, manejo seguro e privado, mineração, etc. Ensinamos do nível iniciante ao avançado."
       button:
         label: "Agendar"
         url: "/contato"

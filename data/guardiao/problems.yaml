@@ -2,8 +2,8 @@ enabled: true
 id: "problems"
 
 content:
-  title: "Mas não é tão simples, existem **armadilhas** no caminho..."
-  text: "As pessoas NÃO guardam suas criptos corretamente, e tem sua segurança e privacidade comprometidas por causa disso, arriscando seus fundos."
+  title: "Mas ingenuamente investir em criptomoedas NÃO é a solução: **existem armadilhas no caminho.**"
+  text: "As pessoas NÃO guardam suas criptomoedas corretamente. Com sua segurança e privacidade comprometidas, arriscam perder seus fundos."
   cards:
     - image: "images/eye.jpg"
       title: "Falta de Privacidade"

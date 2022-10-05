@@ -4,6 +4,9 @@ id: "cta"
 content:
   title: "Use criptomoedas e gerencie corretamente o seu dinheiro!"
   image: "images/aceitche-logo-horiz.png"
-  button:
+  button1:
+    label: "Ver Cursos"
+    url: "/cursos"
+  button2:
     label: "Entrar em Contato"
     url: "/contato"

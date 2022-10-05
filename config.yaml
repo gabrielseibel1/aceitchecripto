@@ -53,6 +53,10 @@ menus:
       url: "/cursos"
       weight: 2
 
+    - name: "Contato"
+      url: "/contato"
+      weight: 3
+
 taxonomies:
   series: "series"
   tags: "tags"

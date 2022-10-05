@@ -11,16 +11,16 @@
       {{ with .content.featured }}
       <div class="col-12 col-xl-7 d-flex flex-column justify-content-center">
         <div class="pb-4">{{ partial "utilities/image-third.html" "images/testimonials-left-quote.png" }}</div>
-        <div class="card d-flex flex-row align-items-start border-0 shadow p-5">
-          <div>
+        <div class="card d-flex flex-column align-items-start border-0 shadow p-5">
+          <div class="d-flex align-items-center pb-3">
             {{ with .image }}
             {{ with resources.Get . }}
-            <img class="me-4 mb-2 size-120" src="{{ .Permalink }}" alt="{{ .Title }}" style="float:left;">
+            <img class="me-4 mb-2 size-90" src="{{ .Permalink }}" alt="{{ .Title }}" style="float:left;">
             {{ end }}
             {{ end }}
-            <p class="card-text text-black-61">"{{ .text }}"</p>
-            <span class="card-text text-black-61 fw-bold text-primary">- {{ .client }}</span>
+            <span class="card-text text-black-61 fw-bold text-primary">{{ .client }}</span>
           </div>
+          <p class="card-text fs-4 fw-semibold">"{{ .text }}"</p>
         </div>
         <div class="p-4 text-end">{{ partial "utilities/image-third.html" "images/testimonials-right-quote.png" }}</div>
       </div>
@@ -29,8 +29,8 @@
     <div class="row">
       {{ range $i, $e := .content.list }}
       <div class="col-12 col-xl-6">
-        <div class="card d-flex flex-row align-items-start border-0 shadow p-5 my-2">
-          <div>
+        <div class="card d-flex flex-column align-items-start border-0 shadow p-5 my-2">
+          <div class="d-flex align-items-center pb-3">
             {{ if $e.image }}
             {{ with $e.image }}
             {{ with resources.Get . }}
@@ -41,9 +41,9 @@
             {{ $colors := (slice "bg-green" "bg-yellow" "bg-red" "bg-purple") }}
             <div class="me-4 mb-2 {{ index $colors (mod $i 4) }} rounded-circle size-90" style="float:left;"></div>
             {{ end }}
-            <p class="card-text text-black-61">"{{ $e.text }}"</p>
-            <span class="card-text text-black-61 fw-bold text-primary">- {{ $e.client }}</span>
+            <span class="card-text text-black-61 fw-bold text-primary">{{ $e.client }}</span>
           </div>
+          <p class="card-text text-black-61 fs-4">"{{ $e.text }}"</p>
         </div>
       </div>
       {{ end }}
