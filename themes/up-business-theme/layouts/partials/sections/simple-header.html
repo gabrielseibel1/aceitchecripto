@@ -2,9 +2,9 @@
   <div class="container">
     <div class="d-flex flex-row align-items-center justify-content-center">
       {{ with .content }}
-          <span class="text-light fw-bold me-2 fs-4">{{ .headline }}</span>
+          <span class="text-light fw-bold me-2 fs-6">{{ .headline }}</span>
         {{ with .button }}
-          <a class="btn bg-green-grad text-light px-4 ms-2 fw-bold fs-6" href="{{ .url }}">{{ .label }}</a>
+          <a class="btn bg-green-grad text-light px-3 ms-2 fw-bold fs-6" href="{{ .url }}">{{ .label }}</a>
         {{ end }}
       {{ end }}
     </div>

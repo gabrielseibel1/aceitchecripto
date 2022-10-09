@@ -2,7 +2,7 @@ enabled: true
 id: "header"
 
 content:
-  headline: "MATRÍCULAS ABERTAS ATÉ 14/11!"
+  headline: "SOMENTE ATÉ 14/11"
   button:
-    label: "GARANTA SUA VAGA"
+    label: "GARANTIR VAGA"
     url: "#offer"
