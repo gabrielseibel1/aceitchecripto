@@ -1,14 +1,14 @@
-<section class="section hero py-5">
+<section class="section hero pb-5 pt-3">
   <div class="container">
-    <div class="row flex-column flex-xl-row-reverse">
+    <div class="row flex-column flex-xl-row-reverse align-items-center">
       {{ with .content.image }}
-      <div class="col-12 col-xl-6  d-flex flex-column justify-content-center hero-image">
+      <div class="col-12 col-xl-6 d-flex flex-column justify-content-center hero-image" style="max-width: 80%;">
         {{ partial "utilities/image-fluid" . }}
       </div>
       {{ end }}
       <div class="col-12 col-xl-6 d-flex flex-column justify-content-center" style="margin-top: 25px;">
         {{ with .content.title }}
-          <h3 class="hero-title fw-bold display-1 text-primary text-center text-xl-start pb-4">{{ . | markdownify }}</h3>
+          <h3 class="hero-title fw-bold display-3 text-primary text-center text-xl-start pb-4">{{ . | markdownify }}</h3>
         {{ end }}
         {{ with .content.text }}
           <p class="text-center text-black-61 text-xl-start pb-4">{{ . | markdownify }}</p>

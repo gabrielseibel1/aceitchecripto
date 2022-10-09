@@ -3,12 +3,11 @@
         <div class="row justify-content-center">
             <div class="col-12 col-xl-12">
                 {{ with .content }}
-                <h3 class="fs-1 fw-bold text-center text-primary pb-3 text-light">{{ .title }}</h3>
-                <div class="" style="margin-top: 50px;">
+                <h3 class="fs-1 fw-bold text-center text-primary pb-4 text-light">{{ .title }}</h3>
+                <div class="">
                     {{ range .list }}
-                    <h4 class="fw-bold">❌ - "{{ .objection | markdownify }}"</h4>
-                    <p>✅ {{ .solution | markdownify }}</p>
-                    <br>
+                    <h4 class="fw-bold mt-4">❌ - "{{ .objection | markdownify }}"</h4>
+                    <span>✅ {{ .solution | markdownify }}</span>
                     {{ end }}
                 </div>
                 {{ end }}
