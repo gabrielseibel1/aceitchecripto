@@ -1,0 +1,8 @@
+enabled: true
+id: "header"
+
+content:
+  headline: "MATRÍCULAS ABERTAS ATÉ 14/11!"
+  button:
+    label: "GARANTA SUA VAGA"
+    url: "#offer"

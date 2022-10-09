@@ -1,37 +1,27 @@
-{{ define "main" }}
+<!DOCTYPE html>
+<html lang="en">
+{{ partial "head/head.html" . }}
 
-{{ with .Site.Data.guardiao.hero1 }}{{ partial "sections/hero.html" . }}{{ end }}
+<body>
+    {{ with .Site.Data.guardiao.header }}{{ partial "sections/simple-header.html" . }}{{ end }}
+    {{ with .Site.Data.guardiao.hero1 }}{{ partial "sections/hero.html" . }}{{ end }}
+    {{ with .Site.Data.guardiao.dontlosemoney }}{{ partial "sections/headline.html" . }}{{ end }}
+    {{ with .Site.Data.guardiao.fiatvsbtc }}{{ partial "sections/portfolio.html" . }}{{ end }}
+    {{ with .Site.Data.guardiao.problems }}{{ partial "sections/services.html" . }}{{ end }}
+    {{ with .Site.Data.guardiao.solution }}{{ partial "sections/headline.html" . }}{{ end }}
+    {{ with .Site.Data.guardiao.hero2 }}{{ partial "sections/hero-dark.html" . }}{{ end }}
+    {{ with .Site.Data.guardiao.who }}{{ partial "sections/who.html" . }}{{ end }}
+    {{ with .Site.Data.guardiao.features }}{{ partial "sections/services.html" . }}{{ end }}
+    {{ with .Site.Data.guardiao.isnot }}{{ partial "sections/triple-headline.html" . }}{{ end }}
+    {{ with .Site.Data.guardiao.curriculum }}{{ partial "sections/curriculum.html" . }}{{ end }}
+    {{ with .Site.Data.guardiao.teacher }}{{ partial "sections/portfolio.html" . }}{{ end }}
+    {{ with .Site.Data.guardiao.trailer }}{{ partial "sections/video.html" . }}{{ end }}
+    {{ with .Site.Data.guardiao.objections }}{{ partial "sections/objections.html" . }}{{ end }}
+    {{ with .Site.Data.guardiao.testimonials }}{{ partial "sections/testimonials.html" . }}{{ end }}
+    {{ with .Site.Data.guardiao.offer }}{{ partial "sections/offer.html" . }}{{ end }}
+    {{ with .Site.Data.guardiao.warranty }}{{ partial "sections/portfolio.html" . }}{{ end }}
+    {{ with .Site.Data.guardiao.faq }}{{ partial "sections/faq.html" . }}{{ end }}
+    {{- partial "shared/footer.html" . -}}
+</body>
 
-{{ with .Site.Data.guardiao.dontlosemoney }}{{ partial "sections/headline.html" . }}{{ end }}
-
-{{ with .Site.Data.guardiao.fiatvsbtc }}{{ partial "sections/portfolio.html" . }}{{ end }}
-
-{{ with .Site.Data.guardiao.problems }}{{ partial "sections/services.html" . }}{{ end }}
-
-{{ with .Site.Data.guardiao.solution }}{{ partial "sections/headline.html" . }}{{ end }}
-
-{{ with .Site.Data.guardiao.hero2 }}{{ partial "sections/hero-dark.html" . }}{{ end }}
-
-{{ with .Site.Data.guardiao.who }}{{ partial "sections/who.html" . }}{{ end }}
-
-{{ with .Site.Data.guardiao.features }}{{ partial "sections/services.html" . }}{{ end }}
-
-{{ with .Site.Data.guardiao.isnot }}{{ partial "sections/triple-headline.html" . }}{{ end }}
-
-{{ with .Site.Data.guardiao.curriculum }}{{ partial "sections/curriculum.html" . }}{{ end }}
-
-{{ with .Site.Data.guardiao.teacher }}{{ partial "sections/portfolio.html" . }}{{ end }}
-
-{{ with .Site.Data.guardiao.trailer }}{{ partial "sections/video.html" . }}{{ end }}
-
-{{ with .Site.Data.guardiao.objections }}{{ partial "sections/objections.html" . }}{{ end }}
-
-{{ with .Site.Data.guardiao.testimonials }}{{ partial "sections/testimonials.html" . }}{{ end }}
-
-{{ with .Site.Data.guardiao.offer }}{{ partial "sections/offer.html" . }}{{ end }}
-
-{{ with .Site.Data.guardiao.warranty }}{{ partial "sections/portfolio.html" . }}{{ end }}
-
-{{ with .Site.Data.guardiao.faq }}{{ partial "sections/faq.html" . }}{{ end }}
-
-{{ end }}
+</html>
