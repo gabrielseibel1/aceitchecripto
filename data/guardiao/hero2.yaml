@@ -6,9 +6,12 @@ style:
 
 content:
   image: "images/guardiao-logo-horiz-transp.png"
-  title: "Proteja-se como um **Guardião Cripto**"
+  title: "Aprenda a **proteger** as suas criptomoedas"
   text: "O curso Guardião Cripto vai te ensinar, do básico ao avançado, a manejar criptomoedas com segurança e privacidade."
+  
   buttonPrimary:
     label: "GARANTA A SUA VAGA"
     url: "#offer"
 
+  buttonDescription1: "🛡️ 7 dias de risco zero! 🛡️"
+  buttonDescription2: "Com o reembolso fácil, teste sem compromisso!"

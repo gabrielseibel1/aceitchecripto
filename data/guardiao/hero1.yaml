@@ -4,9 +4,12 @@ id: "hero1"
 content:
   image: "images/vault-crypto.png"
   title: "Tenha **criptomoedas** seguras e privadas"
-  text: "Aplique um método de manejo privado e ultra-seguro que te diferencia do resto dos investidores. Domine a tecnologia e torne-se um Guardião de criptomoedas."
+  text: "**Aprenda** um método de **manejo privado e ultra-seguro** que te diferencia do resto dos investidores. **Domine a tecnologia** e torne-se um Guardião de criptomoedas."
 
   buttonPrimary:
     label: "GARANTA A SUA VAGA"
     url: "#offer"
+
+  buttonDescription1: "🛡️ 7 dias de risco zero! 🛡️"
+  buttonDescription2: "Com o reembolso fácil, teste sem compromisso!"
 

@@ -1,4 +1,4 @@
-<section class="section hero py-5">
+<section class="section hero py-4">
   <div class="container">
     <div class="row flex-column flex-xl-row-reverse align-items-center">
       {{ with .content.image }}
@@ -8,18 +8,24 @@
       {{ end }}
       <div class="col-12 col-xl-6 d-flex flex-column justify-content-center" style="margin-top: 25px;">
         {{ with .content.title }}
-          <h3 class="hero-title fw-bold display-3 text-primary text-center text-xl-start pb-4">{{ . | markdownify }}</h3>
+        <h3 class="hero-title fw-bold display-3 text-primary text-center text-xl-start pb-4">{{ . | markdownify }}</h3>
         {{ end }}
         {{ with .content.text }}
-          <p class="text-center text-black-61 text-xl-start pb-4">{{ . | markdownify }}</p>
+        <p class="text-center text-black-61 text-xl-start pb-4">{{ . | markdownify }}</p>
         {{ end }}
         <div class="d-flex flex-column flex-xl-row align-items-center justify-content-center">
           {{ with .content.buttonPrimary }}
-            <a class="btn bg-green-grad text-light px-4 my-1 fw-bold fs-3" href="{{ .url }}">{{ .label }}</a>
+          <a class="btn bg-green-grad text-light px-4 my-1 fw-bold fs-3" href="{{ .url }}">{{ .label }}</a>
           {{ end }}
           {{ with .content.buttonSecondary }}
-            <a class="btn btn-outline-primary px-4 my-1 ms-xl-4 fw-bold fs-3" href="{{ .url }}">{{ .label }}<span class="ms-2">{{ partial "icons/arrow-right.html" }}</span></a>
+          <a class="btn btn-outline-primary px-4 my-1 ms-xl-4 fw-bold fs-3" href="{{ .url }}">{{ .label }}<span
+              class="ms-2">{{ partial "icons/arrow-right.html" }}</span></a>
           {{ end }}
+        </div>
+        <div class="text-center mt-3">
+          <span class="text-black-61 text-xl-start fw-bold">{{ .content.buttonDescription1 }}</span>
+          <br>
+          <span>{{ .content.buttonDescription2 }}</span>
         </div>
       </div>
     </div>

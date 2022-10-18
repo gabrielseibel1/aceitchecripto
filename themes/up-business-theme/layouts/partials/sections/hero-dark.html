@@ -1,4 +1,4 @@
-<section class="section hero py-5 bg-purple">
+<section class="section hero py-4 bg-purple">
   <div class="container">
     <div class="row flex-column flex-xl-row-reverse align-items-center">
       {{ with .content.image }}
@@ -20,6 +20,11 @@
           {{ with .content.buttonSecondary }}
             <a class="btn btn-outline-primary px-4 my-1 ms-xl-4 fw-bold fs-3" href="{{ .url }}">{{ .label }}<span class="ms-2">{{ partial "icons/arrow-right.html" }}</span></a>
           {{ end }}
+        </div>
+        <div class="text-center mt-3">
+          <span class="text-black-61 text-xl-start fw-bold text-light">{{ .content.buttonDescription1 }}</span>
+          <br>
+          <span class="text-light">{{ .content.buttonDescription2 }}</span>
         </div>
       </div>
     </div>

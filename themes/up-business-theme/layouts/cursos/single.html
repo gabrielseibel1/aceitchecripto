@@ -5,6 +5,7 @@
 <body>
     {{ with .Site.Data.guardiao.header }}{{ partial "sections/simple-header.html" . }}{{ end }}
     {{ with .Site.Data.guardiao.hero1 }}{{ partial "sections/hero.html" . }}{{ end }}
+    {{ with .Site.Data.guardiao.protect }}{{ partial "sections/headline-description.html" . }}{{ end }}
     {{ with .Site.Data.guardiao.dontlosemoney }}{{ partial "sections/headline.html" . }}{{ end }}
     {{ with .Site.Data.guardiao.fiatvsbtc }}{{ partial "sections/portfolio.html" . }}{{ end }}
     {{ with .Site.Data.guardiao.problems }}{{ partial "sections/services.html" . }}{{ end }}
