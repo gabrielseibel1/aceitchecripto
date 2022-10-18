@@ -1,0 +1,8 @@
+enabled: true
+id: "bonuslives"
+
+content:
+  - image: "images/lives.png"
+    pretitle: "E tem mais!"
+    title: "BÔNUS: +3 aulas especiais"
+    text: "Na compra do curso, ganhe as gravações e transcrições de 3 aulas ministradas ao-vivo! Os tópicos são: **\"O Problema do Dinheiro\"**, **\"As Criptomoedas\"** e **\"Privacidade e Segurança\"**. Através desse material extra, você vai analisar o sistema do dinheiro fiduciário, descobrir a razão-de-ser do Bitcoin, e entender porquê precisamos tanto de segurança e privacidade."

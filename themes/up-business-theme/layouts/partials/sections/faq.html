@@ -1,10 +1,10 @@
-<section class="section cta">
+<section class="section cta py-4">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-12 col-xl-12">
                 {{ with .content }}
-                <h3 class="fs-1 fw-bold text-center text-primary pb-3">{{ .title }}</h3>
-                <div class="text-black-61 pb-5" style="margin-top: 20px;">
+                <h3 class="fs-1 fw-bold text-center text-primary">{{ .title }}</h3>
+                <div class="text-black-61 pt-5" style="margin-top: 20px;">
                     {{ range .list }}
                     <h4 class="fw-bold">- "{{ .question }}"</h4>
                     <p>{{ .answer }}</p>

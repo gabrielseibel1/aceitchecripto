@@ -9,7 +9,6 @@ content:
 
     buttons: 
       - label: "Fonte: folha.uol"
-        url: "https://www1.folha.uol.com.br/mercado/2022/07/inflacao-acumulada-desde-o-plano-real-chega-a-653.shtml"
 
   - image: "images/btc_brl_log.png"
     pretitle: "Bitcoin ao resgate"
@@ -18,4 +17,3 @@ content:
 
     buttons: 
       - label: "Fonte: coinmarketcap"
-        url: "https://coinmarketcap.com/currencies/bitcoin"

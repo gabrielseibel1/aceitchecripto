@@ -1,4 +1,4 @@
-<section class="section hero pb-5 pt-3">
+<section class="section hero py-5">
   <div class="container">
     <div class="row flex-column flex-xl-row-reverse align-items-center">
       {{ with .content.image }}
@@ -13,7 +13,7 @@
         {{ with .content.text }}
           <p class="text-center text-black-61 text-xl-start pb-4">{{ . | markdownify }}</p>
         {{ end }}
-        <div class="d-flex flex-column flex-xl-row">
+        <div class="d-flex flex-column flex-xl-row align-items-center justify-content-center">
           {{ with .content.buttonPrimary }}
             <a class="btn bg-green-grad text-light px-4 my-1 fw-bold fs-3" href="{{ .url }}">{{ .label }}</a>
           {{ end }}
