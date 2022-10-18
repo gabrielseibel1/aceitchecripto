@@ -24,38 +24,41 @@
       </div>
     </div>
   </div>
-  <div class="container"
-    style="background-image: linear-gradient(to bottom right, #000940, #3c00ff); border-radius: 25px; padding: 25px; ">
-    <div class="row justify-content-center">
-      <div class="col-12 col-xl-12">
-        <div class="row justify-content-center text-center">
-          {{ with .content.condition1 }}<h1 class="fw-bold text-light">{{ . }}</h1>{{ end }}
-          {{ with .content.condition2 }}<h1 class="fw-bold text-light">{{ . }}</h1>{{ end }}
-          {{ if .content.priceold }}
-          {{ with .content.priceold }}<h2 class="text-light">de <s>{{ . }}</s> por apenas</h2>{{ end }}
-          {{ else }}
+  <div style="background-image: linear-gradient(to bottom right, #000940, #3c00ff); ; padding: 25px; ">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 col-xl-12">
+          <div class="row justify-content-center text-center">
+            {{ with .content.condition1 }}<h1 class="fw-bold text-light">{{ . }}</h1>{{ end }}
+            {{ with .content.condition2 }}<h1 class="fw-bold text-light">{{ . }}</h1>{{ end }}
+            {{ if .content.priceold }}
+            {{ with .content.priceold }}<h2 class="text-light">de <s class="text-danger">{{ . }}</s> por apenas</h2>{{
+            end }}
+            {{ else }}
             <h2 class="text-light">por apenas</h2>
-          {{ end }}
-          {{ with .content.pricedirect }}<h1 class="fw-bold display-1 text-primary text-center text-light">{{ . }}</h1>{{ end }}
-          {{ with .content.price12x }}<h2 class="text-center text-light">ou em até <b>12x de {{ . }}</b> no cartão</h2>{{ end }}
-        </div>
-        <div class="row justify-content-center">
-          <div class="col-12 col-xl-12 text-center">
-            {{ with .content.button }}
-            <a class="btn btn-primary bg-green-grad text-light px-3 my-1 fw-bold fs-1"
-              style="display: inline-flex; align-items: center;" href="{{ .url }}">
-              {{ .label }}
-            </a>
             {{ end }}
-            <div class="row justify-content-center">
-              <div class="col-12 col-xl-10 text-center">
-                {{ with .content.buttonpost1 }}
-                <span class="text-light">{{ . }}</span>
-                {{ end }}
-                <br>
-                {{ with .content.buttonpost2 }}
-                <span class="text-light">{{ . }}</span>
-                {{ end }}
+            {{ with .content.price12x }}<h2 class="text-center text-light">12x de <span
+                class="fw-bold display-1 text-primary text-center text-light"><b>{{ . }}</b></span></h2>{{ end }}
+            {{ with .content.pricedirect }}<h2 class="text-center text-light">ou apenas {{ . }} à vista!</h2>{{ end }}
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-12 col-xl-12 text-center">
+              {{ with .content.button }}
+              <a class="btn btn-primary bg-green-grad text-light px-3 my-1 fw-bold fs-1"
+                style="display: inline-flex; align-items: center;" href="{{ .url }}">
+                {{ .label }}
+              </a>
+              {{ end }}
+              <div class="row justify-content-center">
+                <div class="col-12 col-xl-10 text-center">
+                  {{ with .content.buttonpost1 }}
+                  <span class="text-light">{{ . }}</span>
+                  {{ end }}
+                  <br>
+                  {{ with .content.buttonpost2 }}
+                  <span class="text-light">{{ . }}</span>
+                  {{ end }}
+                </div>
               </div>
             </div>
           </div>
