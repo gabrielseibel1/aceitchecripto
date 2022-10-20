@@ -4,7 +4,7 @@ id: "hero"
 content:
   image: "images/aceitche-logo-horiz.png"
   title: "Tenha **criptomoedas** da maneira correta."
-  text: "Criptomoedas com segurança e privacidade."
+  text: "Entre no mercado cripto acertando de primeira, com segurança e privacidade."
 
   buttonPrimary:
     label: "Ver Cursos"
