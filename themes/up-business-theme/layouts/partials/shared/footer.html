@@ -3,7 +3,7 @@
     <div class="row">
       <div class="col-12 col-xl-4 text-center text-xl-start pb-4">
         <h4 class="fw-semibold text-uppercase text-primary">{{ .Site.Title }}</h4>
-        <p class="text-black-61">{{ .Site.Params.description }}</p>
+        <p>{{ .Site.Params.description }}</p>
         {{ with .Site.Params.social }}
         <ul class="d-flex justify-content-center justify-content-xl-start list-unstyled">
           {{ with .dribbble }}<li class="rounded-circle bg-blue-63 me-2 p-2"><a class="d-flex align-items-center justify-content-center size-16" href="{{ . }}">{{ partial "icons/dribbble.html" }}</a></li>{{ end }}
@@ -14,11 +14,11 @@
         {{ end }}
       </div>
       <div class="col-12 col-xl-2 text-center text-xl-start pb-4">
-        <h4 class="fw-semibold text-primary">Mapa do Site</h4>
+        <h5 class="fw-semibold text-primary">Mapa do Site</h5>
         <ul class="list-unstyled">
           {{ range .Site.Menus.footer }}
             <li class="">
-              <a class="text-black-61 text-decoration-none" href="{{ .URL }}">{{ .Name }}</a>
+              <a class="text-decoration-none" href="{{ .URL }}">{{ .Name }}</a>
             </li>
           {{ end }}
         </ul>
@@ -29,7 +29,7 @@
           {{ range .Site.Params.location }}
             <li class="d-flex justify-content-center justify-content-xl-start mb-2">
               <div class="d-flex align-items-center text-primary">{{ partial "icons/geo-alt.html" }}</div>
-              <p class="text-black-61 m-0 ps-2">{{ . }}</p>
+              <p class="m-0 ps-2">{{ . }}</p>
             </li>
           {{ end }}
         </ul>
@@ -37,14 +37,17 @@
       <div class="col-12 col-xl-3 text-center text-xl-start pb-4">
         <h5 class="fw-semibold text-primary">Contato</h5>
         {{ range .Site.Params.contact }}
-          <p class="text-black-61 mb-1">{{ . }}</p>
+          <p class="mb-1">{{ . }}</p>
         {{ end }}
       </div>
     </div>
     <div class="row">
       <div class="col-12">
         {{ with .Site.Params.copyright }}
-          <p class="text-black-61 text-center">{{ . }}</p>
+          <p class="text-center">{{ . }}</p>
+        {{ end }}
+        {{ with .Site.Params.cnpj }}
+          <p class="text-center">CNPJ: {{ . }}</p>
         {{ end }}
       </div>
     </div>
