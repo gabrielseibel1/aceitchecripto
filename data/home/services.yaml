@@ -5,6 +5,13 @@ content:
   title: "Como te ajudamos?"
   text: "Fornecemos serviços relacionados a criptomoedas para pessoas e empresas."
   cards:
+    - image: "images/books.jpg"
+      title: "Aulas Grátis"
+      text: "Participe dos nossos eventos online e aprenda criptomoedas de graça. Se inscrever é muito fácil, mas atenção: as aulas ficam disponíveis por tempo limitado! Veja os próximos eventos:"
+      button:
+        label: "Ver Eventos"
+        url: "/aulas-gratis"
+
     - image: "images/course.jpg"
       title: "Cursos"
       text: "Nos propomos a produzir os melhores cursos de criptomoedas do mercado, com conteúdo técnico exclusivo. Veja os cursos disponíveis agora e aprenda com método!"
@@ -14,14 +21,14 @@ content:
 
     - image: "images/mentoring.jpg"
       title: "Mentorias"
-      text: "Mentorias de criptomoedas com conteúdo personalizado, opcionalmente incluindo: teoria, manejo seguro e privado, mineração, etc. Ensinamos do nível iniciante ao avançado."
+      text: "Aprenda criptomoedas com conteúdo personalizado, opcionalmente incluindo: teoria, manejo seguro e privado, mineração, etc. Do nível iniciante ao avançado."
       button:
         label: "Agendar"
         url: "/contato"
 
     - image: "images/automation.jpg"
       title: "Automação"
-      text: " Criação e hospedagem de lojas online com pagamentos em criptomoedas, botões para páginas de pagamentos cripto estilizadas e automatizadas, integração de eventos de venda."
+      text: "Criação e hospedagem de lojas online com pagamentos em criptomoedas, botões para páginas de pagamentos cripto estilizadas e automatizadas, integração de eventos de venda."
       button:
         label: "Saber mais"
         url: "/contato"
