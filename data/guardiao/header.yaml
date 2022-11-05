@@ -2,7 +2,7 @@ enabled: true
 id: "header"
 
 content:
-  headline: "SOMENTE ATÉ 14/11"
+  headline: "SOMENTE ATÉ 14/12"
   button:
     label: "GARANTIR VAGA"
     url: "#offer"
