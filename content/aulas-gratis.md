@@ -9,4 +9,4 @@ description: "Clique em um evento para saber mais sobre ele"
 
 Em 3 aulas grátis ao-vivo, entenda porquê e como usar criptomoedas.
 
-**[Saiba mais aqui](/do-zero-as-criptomoedas)**
+**[Saiba mais e se inscreva](/do-zero-as-criptomoedas)**

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+{{ partial "head/head.html" . }}
+
+<body>
+    {{ with .Site.Data.dzac.heroevent }}{{ partial "sections/hero-event.html" . }}{{ end }}
+    {{ with .Site.Data.dzac.dontlosemoney }}{{ partial "sections/headline.html" . }}{{ end }}
+    {{ with .Site.Data.dzac.curriculum }}{{ partial "sections/portfolio.html" . }}{{ end }}
+    {{ with .Site.Data.dzac.protect }}{{ partial "sections/headline-description.html" . }}{{ end }}
+    {{ with .Site.Data.dzac.teacher }}{{ partial "sections/portfolio.html" . }}{{ end }}
+    {{ with .Site.Data.dzac.offer }}{{ partial "sections/offer-event.html" . }}{{ end }}
+    {{- partial "shared/footer.html" . -}}
+</body>
+
+</html>

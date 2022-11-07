@@ -1,0 +1,18 @@
+enabled: true
+id: "fiatvsbtc"
+
+content:
+  - image: "images/money.jpg"
+    pretitle: "Aula 1 - 05/12/2022"
+    title: "O Problema do Dinheiro"
+    text: "O dinheiro que usamos no dia-a-dia tem **graves problemas**. Essa ferramenta, originalmente crucial para o capitalismo puro e saudável, passou por sérias apropriações e corrupções de **governos e bancos centrais**, representando hoje, em vez de uma utilidade, uma ameaça à economia sã. Entenda O Problema do Dinheiro em uma aula baseada no livro **O Que o Governo Fez com o Nosso Dinheiro, de Murray N. Rothbard**, pensador libertário expoente da escola austríaca de economia, sucessor intelectual do tão aclamado Ludwig Von Mises."
+
+  - image: "images/cryptocurrencies.jpg"
+    pretitle: "Aula 2 - 06/12/2022"
+    title: "As Criptomoedas"
+    text: "**Porque e como surgiram as criptomoedas? O que elas são, e como elas funcionam?** Vamos juntos responder essas perguntas em uma aula introdutória ao **Bitcoin**. Com o embasamento econômico da aula 1, poderemos enxergar as criptomoedas da maneira correta, como um novo dinheiro, e não um ativo a ter o preço especulado sem embasamento. Vamos analisar também a relação entre o Bitcoin e as **moedas alternativas (altcoins)**, além de tecnologias relacionadas como **CBDCs**."
+
+  - image: "images/lock.jpg"
+    pretitle: "Aula 3 - 07/12/2022"
+    title: "Segurança e Privacidade"
+    text: "A maior parte dos investidores trata criptomoedas como **ações na bolsa de valores**. Eles negociam e guardam as suas criptomoedas em **corretoras e bancos**. Essa atitude é na verdade negligente em termos de cuidados com o seu patrimônio, acarretando em grandes problemas de **segurança e privacidade** (incluindo a perda das criptos). O manejo de criptomoedas é algo novo, e pode ser complexo ou arriscado. Na aula final, vamos descobrir quais são as **armadilhas escondidas** no manejo de criptomoedas, e entender como evitá-las!"

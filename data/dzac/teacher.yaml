@@ -1,0 +1,8 @@
+enabled: true
+id: "teacher"
+
+content:
+  - image: "images/gabriel-seibel-grad-horiz.png"
+    pretitle: "Quem vai te ensinar tudo isso?"
+    title: "Seu professor é um engenheiro de computação."
+    text: "**Gabriel Seibel** é formado em engenharia de computação pela UFRGS e já trabalhou como **programador** em uma das maiores empresas de software do mundo. Além de engenheiro, como **libertário, apaixonado por ética e economia**, nesse evento ele vai te ensinar todo o racional por trás das criptomoedas, do seu surgimento à sua **melhor utilização**."

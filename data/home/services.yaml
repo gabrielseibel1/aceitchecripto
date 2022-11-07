@@ -7,7 +7,7 @@ content:
   cards:
     - image: "images/books.jpg"
       title: "Aulas Grátis"
-      text: "Participe dos nossos eventos online e aprenda criptomoedas de graça. Se inscrever é muito fácil, mas atenção: as aulas ficam disponíveis por tempo limitado! Veja os próximos eventos:"
+      text: "Participe dos nossos eventos online e aprenda criptomoedas de graça. Se inscrever é muito fácil, mas atenção: as aulas ficam disponíveis por tempo limitado!"
       button:
         label: "Ver Eventos"
         url: "/aulas-gratis"
