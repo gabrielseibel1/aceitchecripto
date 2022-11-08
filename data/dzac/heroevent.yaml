@@ -1,0 +1,11 @@
+enabled: true
+id: "participar"
+
+content:
+  image: "images/dzac-hero.png"
+  subtitle: "Dias **5, 6 e 7** de dezembro, sempre às **20h**. Online, ao-vivo e **gratuito**."
+
+  buttonPrimary:
+    label: "GARANTA A SUA VAGA"
+    url: "#offer"
+

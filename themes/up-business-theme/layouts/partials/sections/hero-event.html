@@ -1,0 +1,67 @@
+<section class="section hero py-4 bg-purple" id="{{ .id }}">
+  <div class="container">
+    <div class="row flex-column flex-xl-row align-items-center">
+      {{ with .content.image }}
+      <div class="col-12 col-xl-6 d-flex flex-column justify-content-center hero-image" style="max-width: 80%;">
+        {{ partial "utilities/image-fluid" . }}
+      </div>
+      {{ end }}
+      <div class="col-12 col-xl-6 d-flex flex-column justify-content-center" style="margin-top: 25px;">
+        {{ with .content.subtitle }}
+        <h4 class="hero-title fw-bold display-6 text-primary text-light text-center text-xl-start">{{ . | markdownify }}
+        </h4>
+        {{ end }}
+        <div class="d-flex flex-column flex-xl-row align-items-center justify-content-center bg-purple text-light pt-4">
+
+          <!-- Generated from https://formkeep.com/forms/2c3123acefba/designer/edit on November 08, 2022 13:54 using version 2.03.21 -->
+          <div class="container">
+            <div class="row">
+              <section class="container col-xs-12 col-sm-8 col-sm-offset-2 col-xl-10 col-xl-offset-3 my-4">
+                <div class="container" style="width:100%">
+                  <form class="" target="_self" enctype="multipart/form-data"
+                    action="https://formkeep.com/f/2c3123acefba" accept-charset="UTF-8" method="post"><input name="utf8"
+                      type="hidden" value="&#x2713;" />
+                    <fieldset>
+                      <center>
+                        <h2>PREENCHA ABAIXO PARA PARTICIPAR GRATUITAMENTE</h2>
+                      </center>
+                      <br>
+                      <div class="row">
+                        <div class="form-group col-xs-12" id="Nome__div">
+                          <label title="required" for="Nome" class="text-black-61 text-light">Nome *</label>
+                          <input type="text" name="Nome" id="Nome" required="required" placeholder="Seu primeiro nome" autofocus="autofocus" class="form-control text-black-61" />
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="form-group col-xs-12" id="Email__div">
+                          <label title="required" for="Email" class="text-black-61 text-light">Email *</label>
+                          <input type="email" name="Email" id="Email" required="required" placeholder="Seu melhor email"
+                            class="form-control text-black-61" />
+                        </div>
+                      </div>
+                      <br>
+                      <div style="opacity:0;position:absolute;top:0;left:-5000px;height:0;width:0">
+                        <label for="subscribe_2c3123acefba_40612"></label>
+                        <input name="subscribe_2c3123acefba_40612" value="" tabindex="-1" autocomplete="off"
+                          type="email" id="email_subscribe_2c3123acefba_40612" placeholder="Your email here">
+                      </div>
+                      <div class="row">
+                        <div class="col-xs-12 d-flex align-items-center justify-content-center">
+                          <input type="submit" value="QUERO PARTICIPAR" class="btn bg-green-grad text-light px-4 my-1 fw-bold fs-1"
+                            data-disable-with="QUERO PARTICIPAR" />
+                        </div>
+                      </div>
+                    </fieldset>
+                  </form>
+                </div>
+              </section>
+            </div>
+          </div>
+          <!-- Generated from https://formkeep.com/forms/2c3123acefba/designer/edit on November 08, 2022 13:54 using version 2.03.21 -->
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

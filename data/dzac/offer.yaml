@@ -1,0 +1,8 @@
+enabled: true
+id: "offer"
+
+content:
+  title: "Essa é a sua oportunidade para entender as criptomoedas."
+  button:
+    label: "APRENDER GRÁTIS"
+    url: "#participar"
