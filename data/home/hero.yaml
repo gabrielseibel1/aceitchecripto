@@ -7,8 +7,8 @@ content:
   text: "Entre no mercado cripto acertando de primeira, com segurança e privacidade."
 
   buttonPrimary:
-    label: "Ver Cursos"
-    url: "/cursos/"
+    label: "Aulas Grátis"
+    url: "/aulas-gratis/"
 
   buttonSecondary:
     label: "Entrar em contato"
