@@ -2,7 +2,7 @@ enabled: true
 id: "header"
 
 content:
-  headline: "SOMENTE ATÉ 14/12"
+  headline: "DISPONÍVEL POR TEMPO LIMITADO"
   button:
     label: "GARANTIR VAGA"
     url: "#offer"
