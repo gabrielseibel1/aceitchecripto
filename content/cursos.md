@@ -5,7 +5,7 @@ description: "Clique em um curso para saber mais sobre ele"
 ---
 
 # [O Guardião Cripto](/guardiao-cripto)
-### Somente até 14/12/2022
+### Disponível por tempo limitado
 
 Tenha criptomoedas seguras e privadas.
 
